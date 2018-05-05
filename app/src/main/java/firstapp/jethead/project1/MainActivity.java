@@ -30,18 +30,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-//        Button btnCamera = (Button)findViewById(R.id.btnCamera);
-//        imageView = (ImageView)findViewById(R.id.imageView);
-//
-//        btnCamera.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-//                startActivityForResult(intent,0);
-//            }
-//        });
-
         Button btnCamera = findViewById(R.id.btnCamera);
         this.imageView = findViewById(R.id.imageView);
         btnCamera.setOnClickListener(new View.OnClickListener() {
